@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Navbar */
+
+.logo{
+  padding: 15px 35px;
+  height: 3.8rem;
+}
+
+.nav-link{
+  font-size: 13px;
+  padding: 0 15px 0 15px;
+  color: black;
+}
+
+.slider-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deviceimages{
+  height: 40px;
+}
+
+.margin-top{
+ margin-top: 8rem;
+}
+
+.img-device{
+height: 2.5rem;
+width: 2.5rem;
+}
+
+.device-text{
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Card Section */
+
+.card{
+border: none;
+}
+
+
+/* Midsection */
+
+.Midtext{
+  align-items: center;
+  justify-content: center;
+}
+
+/* Social media */
+
+.social-icon{
+  margin-top: 4rem;
+}
+
+.social-icon p{
+  font-size: 1rem;
+}
+
+.social-icon i{
+  margin-top: -20px;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+/* footer */
+
+.footer{
+  background-color: gray;
+  padding: 60px 0;
+}
+
+footer li{
+  list-style: none;
+}                  
+
+
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}                 
+
+.footer-ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-ul ul{
+  margin-top: 20px;
+}
+
+.footer-ul li{
+  margin-top: 10px;
+}
+
+
+/* Responsive code */
+
+@media(max-width:560px){
+  .slider-item{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img.slider{
+    height: auto;
+    width: 100%;
+  }
+}
+
+.footer-ul {
+  align-items: flex-start;
+}
+
